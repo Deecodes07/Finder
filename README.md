@@ -7,7 +7,7 @@ And the tool is very useful in Bug Hunting.
 
 Step to Exploit :-
 
-* Give give permissions to two file "chmod 777 setup.sh && chmod 777 parasite.sh"
+* Give permissions to two file "chmod 777 setup.sh && chmod 777 parasite.sh"
 * First setup the file from "./setup.sh"
 * After the setup enter this command "./parasite.sh" and hit enter.
 * They will ask a website url. Enter the target url and hit enter.
