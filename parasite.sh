@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#The TOol is created by DeeCodes07 
+#Contact: https://t.me/DeeCodes_07
+
 #This command use for URL.
 read -p "Please enter Your Target URL: " URL
 waybackurls "$URL" | tee target.txt
