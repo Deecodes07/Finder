@@ -6,6 +6,8 @@
 cowsay -f ghostbusters "This tool is create by DeeCodes"
 #This command use for URL.
 read -p "Please enter Your Target URL: " URL
+read -p "Please enter your name:" name
+
 waybackurls "$URL" | tee target.txt
 
 clear
@@ -55,4 +57,4 @@ mv dir1.txt parameters/
 rm -rf ex.txt
 
 #Turn into Motivate
-figlet WAKEUP AND HUNT
+cowsay $name WAKEUP AND HUNT
