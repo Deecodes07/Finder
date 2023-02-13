@@ -3,7 +3,7 @@ And the tool is very useful in Bug Hunting.
 
 * Finding hidden links
 * Finding directories
-* Finding Injection parameters (SSRF, LFI, XSS, RCE, SQL).
+* Finding Injection parameters (URL redirection, SSRF, LFI, XSS, RCE, SQL).
 
 Step to Exploit :-
 
