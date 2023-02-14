@@ -3,6 +3,8 @@
 #The TOol is created by DeeCodes07 
 #Contact: https://t.me/DeeCodes_07
 
+clear
+
 cowsay -f ghostbusters "This tool is create by DeeCodes"
 #This command use for URL.
 read -p "Please enter Your Target URL: " URL
