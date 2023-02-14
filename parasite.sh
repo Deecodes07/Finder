@@ -59,4 +59,4 @@ mv dir1.txt parameters/
 rm -rf ex.txt
 
 #Turn into Motivate
-cowsay $name WAKEUP AND HUNT
+cowsay -f daemon $name WAKEUP AND HUNT NOW
