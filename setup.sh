@@ -1,3 +1,4 @@
+clear
 read -p "Please enter your name:" name
 
 #Installation of waybackurls
