@@ -3,8 +3,7 @@ read -p "Please enter your name:" name
 
 #Installation of waybackurls
 sudo apt install golang
-go install
-github.com/tomnomnom/waybackurls@latest
+go install github.com/tomnomnom/waybackurls@latest
 cd
 cd go
 cd bin
