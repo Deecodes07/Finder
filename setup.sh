@@ -9,6 +9,15 @@ cd
 cd go
 cd bin
 sudo mv waybackurls /usr/bin
+cd
+
+#Installation Of Katana
+go install github.com/projectdiscovery/katana/cmd/katana@latest
+cd 
+cd go
+cd bin
+sudo mv katana /usr/bin
+cd
 
 clear
 
@@ -29,5 +38,7 @@ clear
 
 #installation of cowsay
 sudo apt install cowsay -y
+
+clear
 
 figlet $name Done .!..
