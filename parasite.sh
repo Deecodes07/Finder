@@ -16,12 +16,12 @@ katana -u "$URL" | tee kat-target.txt
 clear
 
 #Create a directory for all parameters
-cd
+
 mkdir parameters
 cd parameters
 mkdir waybackurls
 mkdir katana
-cd
+cd ..
 
 #Searching Parameters
 figlet Searched Parameters
