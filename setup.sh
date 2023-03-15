@@ -2,7 +2,7 @@ clear
 read -p "Please enter your name:" name
 
 #Installation of waybackurls
-sudo apt install golang
+sudo apt install golang -y
 go install github.com/tomnomnom/waybackurls@latest
 cd
 cd go
