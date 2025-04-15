@@ -2,42 +2,29 @@ clear
 read -p "Please enter your name:" name
 
 #Installation of waybackurls
-sudo apt install golang -y
-go install github.com/tomnomnom/waybackurls@latest
+
+sudo apt install golang -y &> /dev/null
+echo "[+] Installing Go lang"
+go install github.com/tomnomnom/waybackurls@latest &> /dev/null
 cd
 cd go
 cd bin
 sudo mv waybackurls /usr/bin
 cd
 
-#Installation Of Katana
-go install github.com/projectdiscovery/katana/cmd/katana@latest
-cd 
-cd go
-cd bin
-sudo mv katana /usr/bin
-cd
-
-clear
-
 #Installation of figlet
-sudo apt install figlet -y
-
-clear
+echo "[+] Installing figlet"
+sudo apt install figlet -y &> /dev/null
 
 #installation of gobuster
-sudo apt install gobuster -y
-
-clear
-
-#installation of dirb
-sudo apt install dirb -y
-
-clear
+echo "[+] Installing gobuster"
+sudo apt install gobuster &> /dev/null
 
 #installation of cowsay
-sudo apt install cowsay -y
+echo "[+] Installing cowsay"
+sudo apt install cowsay -y &> /dev/null
 
-clear
+echo "[+] Installation is Completed"
+echo
 
 figlet $name Done .!..
