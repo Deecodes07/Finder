@@ -11,5 +11,5 @@ Step to Exploit :-
 * First setup the file from "./setup.sh"
 * After the setup enter this command "./parasite.sh" and hit enter.
 * They will ask a website url. Enter the target url and hit enter.
-* After all they will ask a option for site directory bruteforce "Yes or No" (in "Yes" i gave some specific directory and in "No" the by default directories from tool).
+* After all they will bruteforce the directories
 * End of work. It will create a Folder ("parameters"). In the folder you can see the finded (directories, crawl, injections parameters).
