@@ -9,7 +9,7 @@ Step to Exploit :-
 
 * Give permissions to two file "chmod 777 setup.sh.x && chmod 777 parasite.sh.x"
 * First setup the file from "./setup.sh.x"
-* After the setup enter this command "./parasite.sh" and hit enter.
+* After the setup enter this command "./parasite.sh.x" and hit enter.
 * They will ask a website url. Enter the target url and hit enter.
 * After all they will bruteforce the directories
 * End of work. It will create a Folder ("parameters"). In the folder you can see the finded (directories, crawl, injections parameters).
